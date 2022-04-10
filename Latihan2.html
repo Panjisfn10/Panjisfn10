@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title> Login</title>
+    <style>
+        .grup, textarea, datalist{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="tes.php" method="get">
+        <fieldset>
+        <legend>
+            Login Area
+        </legend>
+            <div class="grup">
+                <label>Email</label> <br>
+                <input type="email" name="email" placeholder="Masukan email">
+            </div>
+
+            <div class="grup">
+                <label>Password</label> <br>
+                <input type="password" name="password" laceholder="Masukan password">
+            </div>
+
+            <label>Jurusan</label> 
+                <select class="select2" id="Prodi">
+                    <option value="Sistem informasi">Sistem informasi</option>
+                    <option value="Teknik informatika">Teknik informatika</option>
+                    <option value="Management">Management</option>
+                </select>
+
+        <textarea row="5"></textarea>
+            <button type="submit">Login</button> <br>
+            <p>Bila Gagal Login Silahkan Hubungi Admin</p>
+            <a href="https://wa.me/6282119045757"><img src="https://download.logo.wine/logo/WhatsApp/WhatsApp-Logo.wine.png" alt="Trulli" width="100" height="100"></a><br>
+            <p>kontak admin</p>
+        </fieldset>
+    </form>
+</body>
